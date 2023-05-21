@@ -36,7 +36,7 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message, 
 QueueDB = {}
 ReplyDB = {}
 FormtDB = {}
-NubBot = Client(
+client = Client(
     SESSION_NAME=Config.SESSION_NAME,
     api_id=int(Config.API_ID),
     api_hash=Config.API_HASH,
